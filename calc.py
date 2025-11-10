@@ -3,3 +3,5 @@ def calc_discount(price, percentage):
     print("Discount applied:", discounted)
     return discounted
 
+def add_tax(price, tax):
+    return price + price * tax / 100
